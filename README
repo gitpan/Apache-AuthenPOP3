@@ -1,0 +1,23 @@
+$Id: README,v 1.1 2002/10/25 15:49:28 reggers Exp reggers $
+
+This module, Apache::AuthenPOP3, is an Apache/mod_perl authentication handler
+to authenticate users using a POP3 mail server. Cf. Apache::AuthenIMAP
+
+To build and install it, please run
+
+    perl Makefile.PL
+    make
+    make install
+
+To read more about this module try
+
+    pod2text AuthenPOP3.pm 
+
+This package is Copyright (C) 2002 by Reg Quinton, Information Systems and
+Technology, University of Waterloo. It may be copied, used and redistributed
+under the same terms as perl itself.
+
+Reg Quinton <regers@ist.uwaterloo.ca>
+
+                                     "Stay calm, be brave, wait for the signs."
+							Dead Dog Cafe/CBC Radio
